@@ -12,3 +12,4 @@ You will need to add your URL path (with Auth Token) into the index.php file. Af
 
 This application requires you to bind Twilio service into your application
 
+N.B. For this application, the temperature from the Nest should not change regularly so I did not add a regular time interval refresh. Just simply refresh the page
