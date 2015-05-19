@@ -11,3 +11,4 @@ You will need to add your URL path (with Auth Token) into the index.php file. Af
 
 
 This application requires you to bind Twilio service into your application
+
