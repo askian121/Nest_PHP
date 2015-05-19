@@ -1,0 +1,11 @@
+applications:
+- services:
+  - Twilio
+  disk_quota: 1024M
+  buildpack: php_buildpack
+  host: <YOUR UNIQUE NAME>
+  name: <YOUR UNIQUE NAME>
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 128M
