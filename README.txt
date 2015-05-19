@@ -1,21 +1,13 @@
-# PHP Starter Application
-
-Bluemix provides a PHP starter application as a template so that you can add your code and push the changes back to the Bluemix environment.
+# PHP Nest Thermostat Application running on IBM Bluemix
 
 
-## Files
+This is a PHP class, running on IBM Bluemix, which calls info from your Nest Thermostat. It integrated Twilio SMS service to send a SMS message with the return of the nest call. The interface shows the current temperature reading from the Nest
 
-The PHP starter application has files as below:
 
-*   index.php
+You will need to register your Thermostat and obtain your Auth Token from: https://developer.nest.com/documentation
 
-	This file contains the server side PHP code for your application.
 
-*   images/
+You will need to add your URL path (with Auth Token) into the index.php file. After this set the env variables with both ‘to’ and ‘from’ numbers from Twilio. 
 
-	This directory contains images used by this application.
 
-*   style.css
-
-	This file contains the CSS used to display the HTML from index.php.
-
+This application requires you to bind Twilio service into your application
